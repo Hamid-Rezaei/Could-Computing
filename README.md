@@ -21,19 +21,6 @@ The Music Recommender project is designed to provide personalized music recommen
   - AWS EC2 for cloud resources
   - Jupyter Notebooks for development and visualization
   
-- **How to Run**:
-  1. Clone the repository:
-     ```bash
-     git clone https://github.com/Hamid-Rezaei/Music-Recommender.git
-     ```
-  2. Install the required dependencies:
-     ```bash
-     pip install -r requirements.txt
-     ```
-  3. Run the Jupyter notebook or Python script to train the model:
-     ```bash
-     jupyter notebook Music_Recommender.ipynb
-     ```
 
 ### 2. Search Movie
 This project provides a cloud-based movie search engine. It leverages a distributed architecture to handle large datasets of movie information, allowing users to search for movies by title, genre, and year.
@@ -50,17 +37,6 @@ This project provides a cloud-based movie search engine. It leverages a distribu
   - Docker for containerization
   - Kubernetes for orchestration
 
-- **How to Run**:
-  1. Clone the repository:
-     ```bash
-     git clone https://github.com/Hamid-Rezaei/Search-Movie.git
-     ```
-  2. Build and run the Docker container:
-     ```bash
-     docker-compose up
-     ```
-  3. Access the web app at `http://localhost:5000` and search for your favorite movies!
-
 ### 3. Hadoop and Spark Project
 This project demonstrates the use of Apache Hadoop and Apache Spark for processing large-scale data. It covers tasks like data ingestion, transformation, and analysis using MapReduce and Spark’s distributed computing model.
 
@@ -74,17 +50,4 @@ This project demonstrates the use of Apache Hadoop and Apache Spark for processi
   - Apache Spark
   - HDFS
   - Python/Scala for scripting
-
-- **How to Run**:
-  1. Clone the repository:
-     ```bash
-     git clone https://github.com/Hamid-Rezaei/Hadoop-Spark-Project.git
-     ```
-  2. Set up Hadoop and Spark locally or on cloud instances (e.g., AWS EMR):
-     - Follow the instructions [here](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/ClusterSetup.html) to set up Hadoop.
-     - Follow the instructions [here](https://spark.apache.org/docs/latest/cluster-overview.html) to set up Spark.
-  3. Submit a job to the Hadoop or Spark cluster:
-     ```bash
-     spark-submit your_script.py
-     ```
 
